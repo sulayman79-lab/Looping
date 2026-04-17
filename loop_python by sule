@@ -1,21 +1,9 @@
-#Pengulangan for
-for i in range(20):
-    print("Perulangan ke-", i)
-
-# Pengulangan while
-angka = 1
-while angka <= 20:
-    print("Angka:", angka)
-    angka += 1
-
-#Pengulangan continue 
-for i in range(1, 20):
-    if i == 10:
-        continue 
-    print(f"Angka: {i}")
-
-# pengulangan break
-for i in range(20):
-    if i == 11:
-        break
-    print(i, end=" ")
+#Perulangan (For)
+for i in range(10):
+	print("perulangan", i)
+	
+#Perulangan (While)
+kue = 10
+while kue > 0:
+  	print("makan lagiii")
+  	kue = kue - 1
